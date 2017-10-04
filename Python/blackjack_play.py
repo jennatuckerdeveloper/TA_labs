@@ -1,4 +1,4 @@
-from blackjack import Deck, Hand
+from Python.blackjack import Deck, Hand
 
 my_deck = Deck()
 print(my_deck.cards)

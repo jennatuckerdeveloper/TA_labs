@@ -1,5 +1,6 @@
 import unittest
-from inheritance import Student, Classroom, Course
+
+from Python.inheritance import Student, Classroom, Course
 
 
 class TestStudent(unittest.TestCase):

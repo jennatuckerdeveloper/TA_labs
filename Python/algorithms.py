@@ -61,7 +61,29 @@ def reverse(string):
         return string
     return reverse(string[1:]) + string[0]
 
-# print(reverse("abc"))
+print(reverse("abc"))
+print(reverse("abcdefg"))
+
+def sum(list):
+    sum = 0
+
+    for i in range(0, len(list)):
+        sum = sum + list[i]
+
+    return sum
+
+
+# print(sum([5, 7, 3, 8, 10]))
+
+
+def sumR(list):
+    if len(list) == 1:
+        return list[0]
+    else:
+        return list[0] + sum(list[1:])
+
+
+# print(sumR([5, 7, 3, 8, 10]))
 
 shuffle(nums)
 # print(nums)
@@ -82,7 +104,6 @@ def selection_sort(sort):
 check = [8, 1, 9, 6, 3]
 # selection_sort(check)
 # print(check)
-
 
 
 def merge(sort):
@@ -114,4 +135,4 @@ def merge(sort):
         i3 += 1
     return third
 
-print(merge(check))
+# print(merge(check))

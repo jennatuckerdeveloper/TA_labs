@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Contact</title>
+</head>
+<body>
+<article>
+    <div>
+        <form action="../JS_bootcamp/thanks.html" enctype="multipart/form-data">
+            <fieldset>
+                <legend>I am A Title</legend>
+                <label for="formName">Name:</label>
+                <input type="text" name="name" id="formName">
+
+                <br>
+
+                <label for="formEmail">Email:</label>
+                <input type="text" name="formEmail" id="formEmail">
+            </fieldset>
+
+            <fieldset>
+                <label for="formHowHelp">How can we help?:</label>
+                <textarea name="formHowHelp" id="formHowHelp">
+
+                </textarea>
+                <br>
+
+                <label for="formNotes">Notes:</label><br>
+                <textarea name="formNotes" id="formNotes" cols="30" rows="10">
+                </textarea>
+            </fieldset>
+
+
+            <fieldset>
+                <label for="formColor">Choose a color:</label><br>
+                <input type="color" id="formColor" name="formColor">
+            </fieldset>
+            <fieldset>
+                <legend>What are your favorite colors?</legend>
+                <label for="formColorFavesBlue"><input type="checkbox" id="formColorFavesBlue" name="formColorFaves" value="Blue">True</label><br>
+                <label for="formColorFavesRed"><input type="checkbox" id="formColorFavesRed" name="formColorFaves" value="Red">Red</label><br>
+            </fieldset>
+
+            <fieldset>
+                <legend>What is your favorite animal?</legend>
+                <label for="formAnimalFaveCat"><input type="radio" id="formAnimalFaveCat" name="formAnimalFave" value="Cat">Cat</label><br>
+                <label for="formAnimalFaveDog"><input type="radio" id="formAnimalFaveDog" name="formAnimalFave" value="Dog">Dog</label><br>
+            </fieldset>
+
+            <input type="file" multiple>
+            <input type="submit" value="Submit">
+            <input type="reset" value="Reset">
+        </form>
+    </div>
+</article>
+</body>
+</html>

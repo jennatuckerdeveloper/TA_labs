@@ -1,4 +1,4 @@
-from graphics import *
+from Python.graphics import *
 
 def main():
     win = GraphWin('Click me!')
