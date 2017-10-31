@@ -1,0 +1,18 @@
+Collecting Flask
+  Downloading Flask-0.12.2-py2.py3-none-any.whl (83kB)
+Collecting Jinja2>=2.4 (from Flask)
+  Downloading Jinja2-2.9.6-py2.py3-none-any.whl (340kB)
+Collecting click>=2.0 (from Flask)
+  Downloading click-6.7-py2.py3-none-any.whl (71kB)
+Collecting Werkzeug>=0.7 (from Flask)
+  Downloading Werkzeug-0.12.2-py2.py3-none-any.whl (312kB)
+Collecting itsdangerous>=0.21 (from Flask)
+  Downloading itsdangerous-0.24.tar.gz (46kB)
+Collecting MarkupSafe>=0.23 (from Jinja2>=2.4->Flask)
+  Downloading MarkupSafe-1.0.tar.gz
+Installing collected packages: MarkupSafe, Jinja2, click, Werkzeug, itsdangerous, Flask
+  Running setup.py install for MarkupSafe: started
+    Running setup.py install for MarkupSafe: finished with status 'done'
+  Running setup.py install for itsdangerous: started
+    Running setup.py install for itsdangerous: finished with status 'done'
+Successfully installed Flask-0.12.2 Jinja2-2.9.6 MarkupSafe-1.0 Werkzeug-0.12.2 click-6.7 itsdangerous-0.24
