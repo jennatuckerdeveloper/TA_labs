@@ -1,0 +1,31 @@
+#game-board {
+  height: 330px;
+  width: 330px;
+  margin: 0 auto;
+  border: 1px solid black;
+}
+
+.cell {
+  display: inline-block;
+  width: 21%;
+  margin: 4px;
+  height: 21%;
+  border: 1px solid black;
+  background: url(https://files.slack.com/files-tmb/T0PQYS509-F7E1GDMPH-646bd12a08/hole_360.jpg) center;
+  background-size: cover;
+}
+
+#game-info {
+  height: 40px;
+  width: 330px;
+  margin: 0 auto;
+  background: lightblue;
+}
+
+#level-display, #lifes-display {
+  margin-left: 30px;
+}
+
+#start {
+  margin: 10px 37%;
+}
